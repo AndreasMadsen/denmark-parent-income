@@ -1,0 +1,29 @@
+{
+  "name": "denmark-parent-income",
+  "description": "Get parent income mean and median given a schools institution number",
+  "version": "1.0.0",
+  "author": "Andreas Madsen <amwebdk@gmail.com>",
+  "scripts": {
+    "install": "node --strong_mode install.js",
+    "test": "tap test.js"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AndreasMadsen/denmark-parent-income.git"
+  },
+  "keywords": [
+    "denmark",
+    "institution",
+    "school",
+    "parent",
+    "income"
+  ],
+  "dependencies": {
+    "rfc-csv": "0.2.x"
+  },
+  "devDependencies": {
+    "tap": "1.3.x"
+  },
+  "license": "MIT"
+}
