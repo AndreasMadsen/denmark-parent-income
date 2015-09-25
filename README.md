@@ -17,8 +17,8 @@ in 2012 and 2011. This is then parsed and stored as a JSON file.
 const schools = require('denmark-parent-income')
 ```
 
-`schools` is a `Map` object, with institution numbers as keys and associated
-information as values.
+`schools` is an object stream, with institution numbers information about
+the parents income.
 
 See http://statweb.uni-c.dk/InstRegV2/Fremfind.aspx?SearchType=AlphaInst for
 what institution numbers are.
